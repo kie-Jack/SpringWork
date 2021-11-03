@@ -18,7 +18,7 @@ public class SpringApp3 {
 		
 		BoardController controller = (BoardController)context.getBean("boardController");
 		controller.dataRead();
-				
+			
 		MemberController member = (MemberController)context.getBean("memberController");
 		System.out.println(member.findMember(23));
 		
